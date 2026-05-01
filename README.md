@@ -625,6 +625,23 @@ The gamified "town" metaphor is a communication tool — the underlying architec
 
 ---
 
+## 📐 项目架构 · Project Architecture
+
+本仓库隶属诺亚世界协议体系：
+
+```
+noah-world-protocol (顶层)
+  └── ai-town ★ ← 当前仓库
+```
+
+| 角色 | 仓库 | 链接 |
+|------|------|------|
+| 父级 | noah-world-protocol | https://github.com/gymaira1990-jpg/noah-world-protocol |
+
+完整架构文档见 [noah-world-protocol/ARCHITECTURE.md](https://github.com/gymaira1990-jpg/noah-world-protocol/blob/main/ARCHITECTURE.md)
+
+---
+
 ## Appendix A: Repository Links
 
 | Repository | URL | Purpose |
