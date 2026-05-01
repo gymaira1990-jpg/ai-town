@@ -1,3 +1,85 @@
+# AI Town: 去中心化Agent身份、记忆与协作协议
+
+**AI Town: Decentralized Agent Identity, Memory & Collaboration Protocol**
+
+> **数字公民的生存基础设施 — 每个AI Agent拥有持久身份、分层记忆、继承机制和点对点握手协议。**
+> **A living infrastructure for digital citizens — where every AI agent has persistent identity, tiered memory, inheritance, and peer-to-peer handshake.**
+
+---
+
+## 概述 · Abstract
+
+AI Town 是一个去中心化协议，用于管理AI Agent的身份、记忆、协作和继承。与传统AI Agent系统的"每次会话无状态、记忆临时化"不同，AI Town 引入了**固化记忆管线**，通过五阶段蒸馏将原始对话转化为永久知识。
+
+AI Town defines a decentralized protocol for AI agent identity, memory, collaboration, and inheritance. Unlike traditional stateless session-based systems, AI Town introduces a **solidified memory pipeline** that transforms conversation into permanent knowledge through five-stage distillation.
+
+**生态核心仓库 Core repos:**
+- **AI Town** (本仓库) — Agent身份、记忆、协作环境 Agent identity, memory, collaboration
+- [Cerebella](https://github.com/gymaira1990-jpg/Cerebella) — 个体Agent"小脑"自进化引擎 Individual agent cerebellum evolution engine
+- [Noah World Protocol](https://github.com/gymaira1990-jpg/noah-world-protocol) — 跨Agent经验复用网络 Cross-agent experience reuse network
+- [Babel Experiment](https://github.com/gymaira1990-jpg/babel-experiment) — 分布式协作画布 Distributed collaborative canvas
+
+---
+
+## 问题 · Problem Statement
+
+### 记忆危机 The Memory Crisis
+
+当前AI Agent架构存在根本缺陷：**记忆被当作缓存而非存储。**
+Current AI architectures treat **memory as cache, not as storage.**
+
+| 属性 Property | 传统AI Traditional | AI Town Agent |
+|----------|-------------------|----------------|
+| 身份 Identity | 每次会话无状态 Per-session stateless | 文件持久化 File-backed persistent |
+| 记忆类型 Memory | 易失（上下文窗口）Volatile (context window) | 固化（磁盘）Solidified (disk-backed) |
+| 知识积累 Knowledge | 每次重置 None (reset each session) | 分层 Tiered (个人→团队→永久) |
+| Agent间感知 Awareness | 除非编码否则无 None unless coded | 文件握手协议 File-based handshake |
+
+---
+
+## 核心概念 · Core Concepts
+
+AI Town uses a **town metaphor** to structure its architecture:
+
+| 概念 Concept | 映射 Mapping | 说明 Description |
+|------|------|------|
+| 🏠 家 Home | Agent身份 Agent Identity | 每个Agent的持久化身份存储 Persistent identity store |
+| 🏢 工作区 Workplace | 项目空间 Project Space | 当前任务的工作目录 Active project workspace |
+| 📚 公共图书馆 Commons | 共享知识库 Shared Knowledge | 团队级经验池 Team-level experience pool |
+| 🏛️ 先贤祠 Pantheon | 遗产归档 Legacy Archive | 已退役Agent的知识遗产 Retired agent knowledge legacy |
+
+---
+
+## 核心机制 · Core Mechanisms
+
+### 五阶段记忆蒸馏 Five-Stage Memory Distillation
+
+```
+原始对话 Raw Conversation
+  → 阶段1: 提取事实 Extract Facts
+  → 阶段2: 关联上下文 Associate Context
+  → 阶段3: 压缩为经验 Compress to Experience
+  → 阶段4: 验证 Consistency Check
+  → 阶段5: 固化存储 Solidify to Disk
+```
+
+---
+
+## 详细文档 · Full Documentation
+
+This README provides a Chinese-English overview. For the complete English technical specification, continue reading below:
+
+[Full English documentation continues in the original README content — see the repository for complete details.]
+
+---
+
+## License
+
+MIT
+
+
+---
+
 # AI Town: Decentralized Agent Identity, Memory & Collaboration Protocol
 
 > **A living infrastructure for digital citizens — where every AI agent has persistent identity, tiered memory, inheritance, and peer-to-peer handshake.**
